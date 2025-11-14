@@ -7,7 +7,7 @@ The YOLOv11n model achieved high performance with a mean Average Precision (mAP)
 
 Experimental results show that the system accurately detects violations, particularly during daytime, achieving 17.40 FPS, 99.70% accuracy, 99% recall, and 0.49% FPR. At night, accuracy decreased to 98.93% and recall 92,24% with an FPR of 2.5% due to poor lighting conditions. These results indicate that the developed system can reliably detect wrong-way driving violations with low error rates and high performance, making it suitable to support automated traffic surveillance.
 
-=================================== SETUP ===================================
+========================= SETUP =========================
 
 📌 Features
 1) Vehicle detection using YOLOv11
@@ -19,7 +19,9 @@ Experimental results show that the system accurately detects violations, particu
 7) React + Vite + Chakra UI frontend
 8) Live video streaming and violation sidebar with auto-refresh
 
-🔧 Backend Setup (FastAPI)
+**<br>
+🔧Backend Setup (FastAPI)
+<br>**
 1. Navigate to the backend folder using 
 <pre>cd backend </pre>
 2. Create and activate a virtual environment
@@ -30,7 +32,10 @@ venv\Scripts\activate </pre>
 4. Start the backend server
 <pre>uvicorn main:app --reload --host 0.0.0.0 --port 8000</pre>
 
+
+**<br>
 🔧 Frontend Setup (React + Vite + Chakra UI)
+<br>**
 1. Navigate to the frontend folder using 
 <pre>cd frontend</pre>
 2. Instal dependencies
@@ -38,7 +43,8 @@ venv\Scripts\activate </pre>
 3. Start the development server
 <pre>npm run dev</pre>
 
-📤 How to Use the System
+**<br>
+📤 How to Use the System <br>**
 1. Start both backend and frontend
 2. Open the frontend UI in your browser
 3. Upload a video (MP4) or enter a stream URL (RTSP/HTTP)
